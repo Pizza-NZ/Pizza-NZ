@@ -1,7 +1,6 @@
 # 👋 Welcome to Pizza-NZ's Tech Universe! 
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Backend+Developer;Java+%26+Go+Enthusiast;System+Design+Architect;Always+Learning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00ADD8&center=true&vCenter=true&width=435&lines=Backend+%26+DevOps+Engineer;Go+%7C+AWS+%7C+Docker+%7C+Terraform;Building+Cloud-Native+Systems" alt="Typing SVG" />
 </div>
 
 ## 👨‍💻 About Me
@@ -25,23 +24,81 @@ me := Developer{
 }
 ```
 
-I'm a hands-on learner who thrives on transforming ideas into reality through code. While university taught me the theory, real-world problem-solving and collaboration are where I truly excel. I believe in writing code that not only works but tells a story.
+I'm a hands-on engineer driven by a passion for building, deploying, and operating scalable backend systems. My focus is on writing clean, efficient Go code and leveraging modern DevOps principles to create robust, automated infrastructure. I thrive on the challenges of system design, cloud architecture, and creating seamless CI/CD pipelines.
 
 ## 🛠️ Tech Stack
 
+Here's a snapshot of the technologies I work with:
+
 <div align="center">
 
-### Languages & Frameworks
-<img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
-<img src="https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+<table width="100%">
 
-### Cloud & Tools
-<img src="https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
-<img src="https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-<img src="https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-
+<tr>
+  <th>
+    <h3>Backend</h3>
+  </th>
+  <th>
+    <h3>DevOps & Cloud</h3>
+  </th>
+  <th>
+    <h3>Databases</h3>
+  </th>
+</tr>
+<tr>
+  <td>
+    <img src="https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+    <img src="https://img.shields.io/badge/REST%20APIs-grey.svg?style=for-the-badge" alt="REST APIs" />
+  </td>
+  <td>
+    <img src="https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+    <img src="https://img.shields.io/badge/REST%20APIs-grey.svg?style=for-the-badge" alt="REST APIs" />
+    <img src="https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+    <img src="https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/Terraform-%237B42BC.svg?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
+    <img src="https://img.shields.io/badge/GitHub%20Actions-%232088FF.svg?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+  </td>
+  <td>
+    <img src="https://img.shields.io/badge/PostgreSQL-%234169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  </td>
+</tr>
+</table>
 </div>
+
+## 🚀 My Projects
+
+These are the two main projects I've been developing, showcasing my skills from application code to cloud deployment.
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>File Uploader Service</h3>
+      <p>A cloud-native backend service for scalable, persistent file uploads, built with a focus on modern DevOps practices.</p>
+      <ul>
+        <li>✅ Engineered in Go to stream uploads directly to <strong>AWS S3</strong>.</li>
+        <li>✅ Deployed to <strong>AWS App Runner</strong> via a full <strong>CI/CD pipeline</strong> using GitHub Actions.</li>
+        <li>✅ All cloud infrastructure (S3, ECR, App Runner) is defined and managed with <strong>Terraform</strong>.</li>
+      </ul>
+      <p align="right">
+        <a href="https://github.com/Pizza-NZ/file-uploader">View Repository &rarr;</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>URL Shortener</h3>
+      <p>A high-performance web service that generates short, unique links for long URLs, built with a modular, testable architecture.</p>
+      <ul>
+        <li>✅ Built with a multi-package Go architecture and persistent storage using <strong>PostgreSQL</strong>.</li>
+        <li>✅ Containerized with a multi-stage <strong>Dockerfile</strong> for a minimal production image.</li>
+        <li>✅ Features a robust graceful shutdown mechanism and structured logging.</li>
+      </ul>
+      <p align="right">
+        <a href="https://github.com/Pizza-NZ/url-shortener">View Repository &rarr;</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+
 
 ## 📊 GitHub Stats
 
